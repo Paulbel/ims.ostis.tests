@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/nopredmet" idtf="Classification_agent_of_finding_rejected_proposals_of_author_PROPOSAL_5" shapeColor="0" id="19282960" parent="0" left="0" top="0" right="556.328" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="225.666" y="394.166" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="ui_user" shapeColor="0" id="20794432" parent="0" left="0" top="0" right="61.4062" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="228" y="195.833" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_authors" shapeColor="0" id="19284464" parent="0" left="0" top="0" right="99.9531" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="280.5" y="337.666" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Classification_agent_of_finding_rejected_proposals_of_author_AUTHOR_3" shapeColor="0" id="19678512" parent="0" left="0" top="0" right="538.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="226.666" y="253.166" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Classification_agent_of_finding_rejected_proposals_of_author_AUTHOR_5" shapeColor="0" id="19265840" parent="0" left="0" top="0" right="538.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="380.5" y="53.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Classification_agent_of_finding_rejected_proposals_of_author_AUTHOR_4" shapeColor="0" id="19279424" parent="0" left="0" top="0" right="538.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="211.973" y="110.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="ui_user" shapeColor="0" id="20837552" parent="0" left="0" top="0" right="61.4062" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="211.973" y="45.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="20780880" parent="0" id_b="19282960" id_e="19678512" b_x="225.666" b_y="394.166" e_x="226.666" e_y="253.166" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="20779888" parent="0" id_b="20837552" id_e="19279424" b_x="211.973" b_y="45.5" e_x="211.973" e_y="110.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="20776016" parent="0" id_b="19284464" id_e="20780880" b_x="280.5" b_y="337.666" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.379017">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="20774832" parent="0" id_b="20794432" id_e="19678512" b_x="228" b_y="195.833" e_x="226.666" e_y="253.166" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>
