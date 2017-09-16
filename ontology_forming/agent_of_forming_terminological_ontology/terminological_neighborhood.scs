@@ -1,0 +1,46 @@
+nrel_ts_agents_of_forming_ontologies
+=> nrel_main_idtf:
+	[тест(агенты формирования онтологий). неролевое отношение*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[test(agents of forming ontologies). norole relation*] (* <- lang_en;; *);
+=> nrel_idtf:
+	[test(agents of forming ontologies). sysnonym for norole relation*] (* <- lang_en;; *);;
+
+
+rrel_ts_agents_of_forming_ontologies
+=> nrel_main_idtf:
+	[тест(агенты формирования онтологий). ролевое отношение'] (* <- lang_ru;; *);;
+
+
+concept_ts_agents_of_forming_ontologies1
+=> nrel_idtf:
+	[тест(агенты формирования онтологий). абсолютное понятие 1] (* <- lang_ru;; *);;
+
+
+concept_ts_agents_of_forming_ontologies2
+=> nrel_main_idtf:
+	[test(agents of forming ontologies). italian idtf for absolute concept 2] (* <- lang_it;; *);
+=> nrel_main_idtf:
+	[тест(агенты формирования онтологий). абсолютное понятие 2] (* <- lang_ru;; *);
+=> nrel_idtf:
+	[test(agents of forming ontologies). sysnonym for absolute concept 2] (* <- lang_en;; *);;
+
+
+concept_ts_agents_of_forming_ontologies3
+=> nrel_main_idtf:
+	[test(agents of forming ontologies). absolute concept 3] (* <- lang_en;; *);
+=> nrel_main_idtf:
+	[тест(агенты формирования онтологий). абсолютное понятие 3] (* <- lang_ru;; *);
+=> nrel_idtf:
+	[test(agents of forming ontologies). sysnonym for absolute concept 3] (* <- lang_en;; *);
+=> nrel_idtf:
+	[тест(агенты формирования онтологий). синоним абсолютного понятия 3] (* <- lang_ru;; *);;
+
+
+concept_ts_agents_of_forming_ontologies4
+=> nrel_main_idtf:
+	[test(agents of forming ontologies). absolute concept 4] (* <- lang_en;; *);
+=> nrel_main_idtf:
+	[тест(агенты формирования онтологий). абсолютное понятие 4] (* <- lang_ru;; *);
+=> nrel_idtf:
+	[test(agents of forming ontologies). sysnonym for absolute concept 4] (* <- lang_en;; *);;
