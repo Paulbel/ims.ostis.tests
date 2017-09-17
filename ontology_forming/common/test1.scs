@@ -1,0 +1,16 @@
+TS_agents_of_forming_ontologies1 
+<- sc_node_struct;
+
+<- subject_domain;
+
+-> rrel_explored_relation:
+	nrel_ts_agents_of_forming_ontologies;
+	rrel_ts_agents_of_forming_ontologies;
+
+-> rrel_maximum_studied_object_class:
+	concept_ts_agents_of_forming_ontologies1;
+	concept_ts_agents_of_forming_ontologies2;
+
+-> rrel_not_maximum_studied_object_class:
+	concept_ts_agents_of_forming_ontologies3;
+	concept_ts_agents_of_forming_ontologies4;;
